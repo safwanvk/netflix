@@ -1,8 +1,12 @@
 import './App.css';
+import React from 'react'
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
   return (
-    <h1>Welcome to the Netflix</h1>
+    <div className="App">
+      <NavBar/>
+    </div>
   );
 }
 
