@@ -22,7 +22,7 @@ function RowPost(props) {
           // https://developers.google.com/youtube/player_parameters
           autoplay: 1,
         },
-      };
+    };
     const handleMovie = (id)=>{
         axios.get(`movie/${id}/videos?api_key=${API_KEY}&language=en-US`).then((response)=>{
             if(response.data.results.length!==0){
